@@ -50,7 +50,7 @@ class LetterCell: UICollectionViewCell {
    */
   func set(style: LetterCellStyle) {
     // START YOUR CODE HERE
-      func set(style: LetterCellStyle) {
+//      func set(style: LetterCellStyle) {
           switch style {
           case .initial:
               contentView.backgroundColor = UIColor.black
@@ -65,7 +65,7 @@ class LetterCell: UICollectionViewCell {
               contentView.backgroundColor = UIColor(red: 0.38, green: 0.55, blue: 0.33, alpha: 1.0)
               layer.borderColor = UIColor(red: 0.38, green: 0.55, blue: 0.33, alpha: 1.0).cgColor
           }
-      }
+      
     // END YOUR CODE HERE
   }
 }

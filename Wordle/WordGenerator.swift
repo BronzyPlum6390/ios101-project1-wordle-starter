@@ -18,12 +18,15 @@ class WordGenerator {
                                "MIRTH", "NOBLE", "OCEAN", "PLAID", "QUICK", "REACT",
                                "STEAM", "TRUCK", "UNDER", "VITAL", "WASTE", "XEROX",
                                "YACHT", "ZEALOT"]
-  static func generateRandomWord() -> String? {
-    // START YOUR CODE HERE
-      
-      
-      return possibleWords.randomElement()
+    static func generateRandomWord() -> String? {
+        // START YOUR CODE HERE
+        
+        let randomWord = possibleWords.randomElement()
+        print("Selected Word: \(randomWord ?? "")")
+        return randomWord
+        
     // END YOUR CODE HERE
   }
+    
 }
 
